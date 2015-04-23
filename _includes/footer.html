@@ -1,0 +1,55 @@
+<div class="footerwrap footer-above">
+    <div class="container">
+        <div class="row">
+            {% comment %}
+            <div class="col-lg-4">
+                <h4>About</h4>
+                <div class="hline-w"></div>
+                <p>{{ site.about }}</p>
+            </div>
+            {% endcomment %}
+
+            <div class="col-lg-6">
+                <h4>Around the Web</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+            {% comment %}
+            <div class="col-lg-4">
+                <h4>Our Bunker</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+            {% endcomment %}
+            <div class="col-lg-6">
+                <h4>Credits</h4>
+                <div class="hline-w"></div>
+                <p>
+                    {% for credit in site.credits %}
+                        {{ credit.line }} <br>
+                    {% endfor %}
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->
+
+<div class="footerwrap footer-below">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <p>
+                Copyright &copy; 20{{ site.time | date: '%y' }}. {{ site.footer.copyright }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div><! --/footerwrap -->
