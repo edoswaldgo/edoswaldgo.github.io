@@ -15,7 +15,7 @@ img: superpowered-git-bash.png
 [<b>Git Bash</b> by MSysGit][msysgit] is a terminal emulator for running Git from the command-line. It provides a Linux/Unix like environment for Windows when using the "git" command.
 
 ###Why do I use it?
-Git Bash brings many great features that are very helpful to Git users. Probably, the best feature it offers is the auto completion of git commands and options when pressing the "Tab" key. This feature is very helpful for starters *like me* that are not very familiar with git.
+Git Bash brings many great features that are very helpful to Git users. Probably, the best feature it offers is the auto completion of git commands and options when pressing the "Tab" key. This feature is very helpful for starters *like me* that are not very familiar with git. It also displays the current active branch and the state of the Git repository which is really really helpful.
 
 Another great feature that it provides is the color coded output. Colors let the users classify the output easily as compared to just displaying a block of text in plain white.
 
