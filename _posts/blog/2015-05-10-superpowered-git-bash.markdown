@@ -22,7 +22,7 @@ Another great feature that it provides is the color coded output. Colors let the
 ![alt text](/assets/img/blog/superpowered-git-bash/git-bash-features.png "Git Bash Features")
 
 ###Why I don't want to use it?
-It is difficult to copy text inside Git Bash as too many clicks are need to be done. It is a must to use "Edit -> Mark" via the context menu of Git Bash in order to highlight the text to be copied.
+It is difficult to copy text inside Git Bash as too many clicks are needed to be done. It is a must to use "Edit -> Mark" via the context menu of Git Bash in order to highlight the text to be copied.
 
 ![alt text](/assets/img/blog/superpowered-git-bash/git-bash-mark-text.png "Git Bash Mark")
 
