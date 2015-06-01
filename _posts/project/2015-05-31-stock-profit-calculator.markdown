@@ -20,8 +20,11 @@ website: https://github.com/edoswaldgo/stock-profit-calculator
 
 #### Overview
 
-A JavaScript library for calculating the gain / loss of stock market transactions.
+A JavaScript library for calculating the gain / loss of stock market transactions. 
 
+I started trading last 2014 to learn more about investing. My colleague helped me by providing references and tools. One of the tools is a stock profit calculator made in MS Excel. I thought of creating a stock market application for Android before but did not have the time to finish it. Instead, I extracted the code of the stock calculator and created this project. 
+
+Feel free to raise any suggestion / concern. I hope this library can help others.
 
 #### Features
 
@@ -30,12 +33,6 @@ A JavaScript library for calculating the gain / loss of stock market transaction
 * Customizable Transaction Fees
 * Uses BigNumber of Math.js
 * Transaction Fee Breakdown
-
-#### Road Map
-
-* Addition of stockbroker manager.
-* Add options to the `StockCalculator` class.
-* Additional stockbrokers. 
 
 #### Getting Started
 
