@@ -24,7 +24,7 @@ layout: default
             <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
             <p><b>Author:</b> {{ page.author }}</p>
             <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Tagged:</b> {{ page.tags }}</p>
+            <p><b>Tagged:</b> {{ page.tags | array_to_sentence_string }}</p>
             <p><b>Client:</b> {{ page.client }}</p>
             <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
         </div>

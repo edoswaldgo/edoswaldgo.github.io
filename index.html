@@ -15,7 +15,7 @@ permalink: /
                 
                 <div class="text-left">
                 {% for project in projects limit:5 %} 
-                    <p><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }} {{ projects.size }}</a></p>
+                    <p><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></p>
                 {% else %}
                     <p>No projects found.</p>
                 {% endfor %}
