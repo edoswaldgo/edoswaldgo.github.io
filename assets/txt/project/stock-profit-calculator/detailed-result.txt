@@ -1,0 +1,65 @@
+{
+  "gain": 279.1,
+  "gainPercent": 2.5766581178117,
+  "actualBuy": 1.3539825,
+  "actualSell": 1.38887,
+  "details": {
+    "buy": {
+      "grossTradeAmt": 10800,
+      "fees": [
+        {
+          "name": "commission",
+          "descrip": "Commission",
+          "value": 27
+        },
+        {
+          "name": "vat",
+          "descrip": "Value Added Tax (VAT)",
+          "value": 3.24
+        },
+        {
+          "name": "pseTransFee",
+          "descrip": "Philippine Stock Exchange Transaction Fee (PSE Trans Fee)",
+          "value": 0.54
+        },
+        {
+          "name": "sccp",
+          "descrip": "Securities Clearing Corporation of The Philippines Fee (SCCP)",
+          "value": 1.08
+        }
+      ],
+      "netTradeAmt": 10831.86
+    },
+    "sell": {
+      "grossTradeAmt": 11200,
+      "fees": [
+        {
+          "name": "commission",
+          "descrip": "Commission",
+          "value": 28
+        },
+        {
+          "name": "vat",
+          "descrip": "Value Added Tax (VAT)",
+          "value": 3.36
+        },
+        {
+          "name": "pseTransFee",
+          "descrip": "Philippine Stock Exchange Transaction Fee (PSE Trans Fee)",
+          "value": 0.56
+        },
+        {
+          "name": "sccp",
+          "descrip": "Securities Clearing Corporation of The Philippines Fee (SCCP)",
+          "value": 1.12
+        },
+        {
+          "name": "salesTax",
+          "descrip": "Sales Tax",
+          "value": 56
+        }
+      ],
+      "netTradeAmt": 11110.96
+    }
+  }
+}
