@@ -11,17 +11,17 @@ categories:
 img: nodejs-npm-offline.png
 ---
 
-###Overview
+### Overview
 It's been awhile since the last time I posted on my blog. I've been quite busy during the past weeks and kept resting on weekends. Sorry for not being able to post and give weekly updates. Today, I'll tackle something about [Node.js][Node.js].
 
-[Node.js][Node.js] is rapidly gaining popularity in software development nowadays due to many reasons (May check the trend [here][node.js-trend]). One of the reasons is the usage of JavaScript for server-side. Imagine, coding the back-end and front-end using the same language. 
+[Node.js][Node.js] is rapidly gaining popularity in software development nowadays due to many reasons (May check the trend [here][node.js-trend]). One of the reasons is the usage of JavaScript for server-side. Imagine, coding the back-end and front-end using the same language.
 
 Also, it uses a package manager named, [npm][npm]. It has a repository of JavaScript packages which can be used by Node.js applications. It retrieves the packages through the Internet.
 
-###Problem
+### Problem
 Not all organizations provide complete access to the Internet. Some might have intranet networks without any access to the Internet. Given this scenario, how can an individual use [npm][npm] to install desired Javascript libraries?
 
-###Solution
+### Solution
 As the package manager of [Node.js][Node.js] relies on an Internet connection to retrieve packages. [npmbox][npmbox] is created in order to archive online packages including their dependencies. Yes, the dependencies are included. It can greatly save us from installation headaches.
 
 **Workstation with Internet connection:**
@@ -57,7 +57,7 @@ As the package manager of [Node.js][Node.js] relies on an Internet connection to
         Windows:
         If Cygwin or any BASH terminal simulator is installed, may just use the command same as Linux. If none, may use other tools like [7zip][7zip].
 
-5. In the same directory, a new folder named ```.npmbox-cache-folder``` will be generated. 
+5. In the same directory, a new folder named ```.npmbox-cache-folder``` will be generated.
 6. Execute the following command in order to use the offline feature of [npm][npm] for installing [npmbox][npmbox]. (I got the command from [here][npm-offline-command].)
 
         npm install --global --cache ./.npmbox-cache --optional --cache-min 999999 --fetch-retries 0 --fetch-retry-factor 0 --fetch-retry-mintimeout 1 --fetch-retry-maxtimeout 2 npmbox
