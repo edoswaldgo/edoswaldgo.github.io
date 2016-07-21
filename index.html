@@ -12,9 +12,9 @@ permalink: /
                 <h4>Latest Works</h4>
                 <div class="hline"></div>
                 {% assign projects = site.categories['project'] %}
-                
+
                 <div class="text-left">
-                {% for project in projects limit:5 %} 
+                {% for project in projects limit:5 %}
                     <p><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></p>
                 {% else %}
                     <p>No projects found.</p>
@@ -27,12 +27,12 @@ permalink: /
             </div>
             <div class="col-md-4">
                 <i class="fa fa-file-text-o"></i>
-                <h4>Latest Posts</h4>
+                <h4>Latest Dev Posts</h4>
                 <div class="hline"></div>
-                {% assign posts = site.categories['blog'] %}
+                {% assign posts = site.categories['Software Development'] %}
 
                 <div class="text-left">
-                {% for post in posts limit:5 %} 
+                {% for post in posts limit:5 %}
                     <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
                 {% else %}
                     <p>No blog posts found.</p>
@@ -40,25 +40,25 @@ permalink: /
                 </div>
 
                 {% if posts.size > 5 %}
-                    <p><br/><a href="{{ "/blog/" | prepend: site.baseurl }}" class="btn btn-theme">See All</a></p>
+                    <p><br/><a href="{{ "/category/#Software%20Development/" | prepend: site.baseurl }}" class="btn btn-theme">See All</a></p>
                 {% endif %}
             </div>
             <div class="col-md-4">
                 <i class="fa fa-question"></i>
-                <h4>Frequently Asked</h4>
+                <h4>Latest Random Posts</h4>
                 <div class="hline"></div>
-                {% assign faqs = site.categories['question'] %}
+                {% assign faqs = site.categories['random'] %}
 
                 <div class="text-left">
-                {% for post in faqs limit:5 %} 
+                {% for post in faqs limit:5 %}
                     <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
                 {% else %}
-                    <p>No questions found.</p>
+                    <p>No blog posts found.</p>
                 {% endfor %}
                 </div>
 
                 {% if faqs.size > 5 %}
-                    <p><br/><a href="{{ "/question/" | prepend: site.baseurl }}" class="btn btn-theme">See All</a></p>
+                    <p><br/><a href="{{ "/category/#Random/" | prepend: site.baseurl }}" class="btn btn-theme">See All</a></p>
                 {% endif %}
             </div>
         </div>
@@ -83,23 +83,23 @@ permalink: /
         <div class="col-lg-4">
             <h4>Latest Works</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
+            {% for post in site.categories['blog'] limit:5 %}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
+            {% endfor %}
         </div>
 
         <div class="col-lg-4">
             <h4>Latest Posts</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
+            {% for post in site.categories['blog'] limit:5 %}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
+            {% endfor %}
         </div>
 
         <div class="col-lg-4">
             <h4>Frequently Asked</h4>
             <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
+            {% for post in site.categories['question'] %}
                 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
             {% endfor %}
         </div>

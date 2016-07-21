@@ -5,7 +5,9 @@ date: 2015-05-10 09:20:00
 author: Ed Oswald Go
 categories:
 - blog
-- Tips&Tricks
+- Software Development
+- Tips
+tags:
 - Git
 - Command-Line
 img: superpowered-git-bash.png

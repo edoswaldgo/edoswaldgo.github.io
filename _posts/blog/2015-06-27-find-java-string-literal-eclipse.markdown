@@ -5,7 +5,8 @@ date: 2015-06-27 12:37:00
 author: Ed Oswald Go
 categories:
 - blog
-- Tips&Tricks
+- Software Development
+tags:
 - Java
 - Eclipse
 img: find-string-literal-eclipse.png

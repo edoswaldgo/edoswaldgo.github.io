@@ -5,7 +5,9 @@ date: 2015-07-27 07:27:00
 author: Ed Oswald Go
 categories:
 - blog
-- Tips&Tricks
+- Software Development
+- Tips
+tags:
 - Node.js
 - npm
 img: nodejs-npm-offline.png

@@ -5,7 +5,9 @@ date: 2015-08-22 01:44:00
 author: Ed Oswald Go
 categories:
 - blog
-- Tips&Tricks
+- Software Development
+- Tips
+tags:
 - Git
 - Command-Line
 img: custom-git-merge-diff-tool.png

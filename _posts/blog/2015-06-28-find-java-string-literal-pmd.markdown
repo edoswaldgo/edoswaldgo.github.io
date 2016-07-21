@@ -5,6 +5,8 @@ date: 2015-06-28 07:12:00
 author: Ed Oswald Go
 categories:
 - blog
+- Software Development
+tags:
 - Code Review
 - Java
 - PMD

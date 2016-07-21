@@ -5,7 +5,9 @@ date: 2015-05-17 16:05:00
 author: Ed Oswald Go
 categories:
 - blog
-- Tips&Tricks
+- Software Development
+- Tips
+tags:
 - Git
 - Command-Line
 img: conemu-git-bash-contextmenu.png

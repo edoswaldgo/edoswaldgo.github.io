@@ -5,6 +5,8 @@ date: 2015-06-01 19:05:00
 author: Ed Oswald Go
 categories:
 - blog
+- Software Development
+tags:
 - JavaScript
 - Unit Testing
 img: qunit-assert-epsilon.png
