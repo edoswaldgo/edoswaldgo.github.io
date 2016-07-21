@@ -5,7 +5,7 @@ title: Ed Oswald Go
 description: "Ed Oswald Go's official website."
 analytics: UA-62093210-1
 baseurl: "" #important: start with /
-url: "http://oswaldogo.github.io"
+url: "https://edoswaldgo.github.io/"
 
 # Build settings
 markdown: kramdown
@@ -13,16 +13,16 @@ permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
   secondary: "#384452" #"#33004D"
   link: "#428bca"
   link_hover: "#01b2fe"
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
   copyright: "#233140"
-  
-  
+
+
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
@@ -34,12 +34,12 @@ social:
   - title: twitter
     url: http://twitter.com/oswaldogo
   - title: github
-    url: http://github.com/oswaldogo
+    url: https://github.com/edoswaldgo
   - title: bitbucket
     url: http://bitbucket.org/oswaldogo
   - title: instagram
     url: https://instagram.com/oswaldogo
-    
+
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 country: Philippines
 email: edoswald89@gmail.com
@@ -56,4 +56,4 @@ about: This site contains the portfolio and blog of Ed Oswald Go. <a href="/abou
 #credits: 'Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>. Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 credits:
   - line: Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>.
-  - line: Hosted by <a href="https://github.com/oswaldogo/oswaldogo.github.io">GitHub</a>.
+  - line: Hosted by <a href="https://github.com/">GitHub</a>.
