@@ -19,14 +19,14 @@ feature_row:
   - image_path: /assets/images/home/photography-DSCF2270.JPG
     alt: "photography"
     title: "Photography"
-    excerpt: "From not taking, to occasionally taking photographs. Follow my casual journey in capturing various moments, ranging from ordinary to something amazing."
+    excerpt: "From not taking any at all, to occasionally taking photographs. Follow my casual journey in capturing various moments, ranging from ordinary to something amazing."
     url: "https://www.instagram.com/oswaldogo"
     btn_class: "btn--primary"
     btn_label: "<i class='fab fa-instagram'></i> Follow Me"
   - image_path: /assets/images/home/projects-DSCF2215.JPG
     alt: "projects"
     title: "Projects"
-    excerpt: "My side projects, outside my day job, for my hobbies and as an avenue for learning new things."
+    excerpt: "Side projects outside my day job which opens an avenue to learn new things and to try new experiences."
     url: "/categories#project"
     btn_class: "btn--primary"
     btn_label: "View Projects"
