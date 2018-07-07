@@ -1,8 +1,5 @@
 ---
-layout: project
 title:  "JavaScript Stock Profit Calculator"
-date:   2015-05-31 16:35:00
-author: Ed Oswald Go
 categories:
 - project
 tags:

@@ -1,59 +1,277 @@
-### GENERAL SETTINGS ###
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
 
-# Site settings
-title: Ed Oswald Go
-description: "Ed Oswald Go's official website."
-analytics: UA-62093210-1
-baseurl: "" #important: start with /
-url: "https://edoswaldgo.github.io/"
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# Build settings
-markdown: kramdown
-permalink: /:categories/:title
-excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031"
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
-  footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
-  copyright: "#233140"
+# Site Settings
+locale                   : "en-US"
+title                    : "Ed Oswald Go"
+title_separator          : "|"
+name                     : "Ed Oswald Go"
+description              : "Ed Oswald Go's official website."
+url                      : "https://edoswaldgo.github.io/"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "edoswaldgo/edoswaldgo.github.io"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 75 # 200
+comments:
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : # ['name', 'email', 'url', 'message']
+  branch                 : # "master"
+  commitMessage          : # "New comment."
+  filename               : # comment-{@timestamp}
+  format                 : # "yml"
+  moderation             : # true
+  path                   : # "/_data/comments/{options.slug}" (default)
+  requiredFields         : # ['name', 'email', 'message']
+  transforms:
+    email                : # "md5"
+  generatedFields:
+    date:
+      type               : # "date"
+      options:
+        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+reCaptcha:
+  siteKey                :
+  secret                 :
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+search                   : true # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
 
-
-### CONTACT SETTINGS ###
-
-# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+# Social Sharing
+facebook:
+  username               : &facebook "ed.oswald.go"
+  app_id                 :
+  publisher              :
+twitter:
+  username               : &twitter "oswaldogo"
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/edoswaldgo
-  - title: facebook
-    url: https://www.facebook.com/ed.oswald.go
-  - title: twitter
-    url: http://twitter.com/oswaldogo
-  - title: github
-    url: https://github.com/edoswaldgo
-  - title: bitbucket
-    url: http://bitbucket.org/oswaldogo
-  - title: instagram
-    url: https://instagram.com/oswaldogo
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - "https://instagram.com/oswaldogo"
+    - "https://www.flickr.com/photos/oswaldogo"
+    - "https://www.linkedin.com/in/edoswaldgo"
+    - "https://facebook.com/ed.oswald.go"
+    - "https://twitter.com/oswaldogo"
 
-# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
-country: Philippines
-email: edoswald89@gmail.com
+# Analytics
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "UA-62093210-1"
+    anonymize_ip         : # true, false (default)
 
-# Footer settings
-footer:
-  copyright: Ed Oswald Go
 
-### GENERAL DATA FOR VARIOUS LOCATIONS ###
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: This site contains the portfolio and blog of Ed Oswald Go. <a href="/about/" class="btn-social btn-outline">More.</a>
+# Site Author
+author:
+  name             : "Ed Oswald Go"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Software Developer | Cineast | Muso | Gamer"
+  location         : "NCR, Philippines"
+  email            : # optional
+  uri              :
+  home             : "/" # null (default), "absolute or relative url to link to author home"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           : "oswaldogo"
+  facebook         : # *facebook
+  foursquare       :
+  github           : "edoswaldgo"
+  gitlab           :
+  google_plus      :
+  keybase          :
+  instagram        : "oswaldogo"
+  lastfm           :
+  linkedin         : "edoswaldgo"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : 
+  steam            : 
+  tumblr           :
+  twitter          : # *twitter
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : 
 
-# Credits content
-#credits: 'Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>. Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-credits:
-  - line: Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>.
-  - line: Hosted by <a href="https://github.com/">GitHub</a>.
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num #/page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
