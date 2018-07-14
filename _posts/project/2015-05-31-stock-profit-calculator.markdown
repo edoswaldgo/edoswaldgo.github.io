@@ -1,12 +1,12 @@
 ---
 title:  "JavaScript Stock Profit Calculator"
 categories:
-- project
+- software
 tags:
-- JavaScript
-- Finance
-- Stock Market
-- Calculator
+- project
+- javascript
+- finance
+- calculator
 client: N/A
 website: https://github.com/edoswaldgo/stock-profit-calculator
 ---

@@ -1,10 +1,10 @@
 ---
 title: "QUnit Assert Equality with Machine Epsilon"
 categories:
-- Software Development
+- software
 tags:
-- JavaScript
-- Unit Testing
+- javascript
+- testing
 ---
 
 ### Overview

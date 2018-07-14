@@ -1,9 +1,9 @@
 ---
 title: "Offline installation of npm packages"
 categories:
-- Software Development
+- software
 tags:
-- Node.js
+- node.js
 - npm
 ---
 

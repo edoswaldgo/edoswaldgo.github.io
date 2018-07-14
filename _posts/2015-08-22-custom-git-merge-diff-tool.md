@@ -1,10 +1,10 @@
 ---
 title: "Custom Merge and Diff Tool for Git"
 categories:
-- Software Development
+- software
 tags:
-- Git
-- Command-Line
+- git
+- cli
 ---
 
 ### Overview

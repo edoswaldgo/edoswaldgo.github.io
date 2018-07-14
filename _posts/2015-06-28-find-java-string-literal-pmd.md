@@ -1,11 +1,11 @@
 ---
 title: "Find Hard-coded String Literals via PMD"
 categories:
-- Software Development
+- software
 tags:
-- Code Review
-- Java
-- PMD
+- code-review
+- java
+- pmd
 ---
 
 ### Overview

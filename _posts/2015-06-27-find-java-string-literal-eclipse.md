@@ -1,10 +1,10 @@
 ---
 title: "Find Hard-coded String Literals via Eclipse"
 categories:
-- Software Development
+- software
 tags:
-- Java
-- Eclipse
+- java
+- eclipse
 ---
 
 ### Overview
