@@ -23,51 +23,55 @@ Many source code analyzers are available in Java and [PMD][pmd] is one of the co
 
 To have a better understanding of the tool, I suggest to check the documentation of the tool as the documentation is very detailed.
 
-I found the ```AvoidDuplicateLiterals``` rule in PMD and it can spot duplicate String literals, given a threshold. The threshold is defined by the ```maxDuplicateLiterals``` property which is set to four by default.
+I found the `AvoidDuplicateLiterals` rule in PMD and it can spot duplicate String literals, given a threshold. The threshold is defined by the `maxDuplicateLiterals` property which is set to four by default.
 
-Sadly, my approach is not really neat because it requires the threshold to be set to zero in order to work. This setting deviates from the real purpose of avoiding "duplicates". Another approach is to create a custom PMD check for this but its code will just like be a copy of ```AvoidDuplicateLiterals```.
+Sadly, my approach is not really neat because it requires the threshold to be set to zero in order to work. This setting deviates from the real purpose of avoiding "duplicates". Another approach is to create a custom PMD check for this but its code will just like be a copy of `AvoidDuplicateLiterals`.
 
 
 1. Create the custom rule set for customizing *AvoidDuplicateLiterals*.
 
-        <?xml version="1.0"?>
-        <ruleset name="Custom ruleset"
-            xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
-            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+    ```xml
+    <?xml version="1.0"?>
+    <ruleset name="Custom ruleset"
+        xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
 
-          <description>
-            This ruleset checks for hardcoded String literals.
-          </description>
+      <description>
+        This ruleset checks for hardcoded String literals.
+      </description>
 
-          <!-- Customize the AvoidDuplicateLiterals rule's properties -->
-          <rule ref="rulesets/java/strings.xml/AvoidDuplicateLiterals">
-            <properties>
-                <property name="maxDuplicateLiterals" value="0"/>
-                <property name="skipAnnotations" value="true"/>
-            </properties>
-          </rule>
+      <!-- Customize the AvoidDuplicateLiterals rule's properties -->
+      <rule ref="rulesets/java/strings.xml/AvoidDuplicateLiterals">
+        <properties>
+            <property name="maxDuplicateLiterals" value="0"/>
+            <property name="skipAnnotations" value="true"/>
+        </properties>
+      </rule>
 
-        </ruleset>
+    </ruleset>
+    ```
 
 2. Save the custom rule set as XML to a desired directory.
 3. Go to the */bin* folder of the PMD distribution.
 4. Run PMD via command-line for testing.
 
-        Execute the following for sample usage:
-        pmd -h
+    ```
+    pmd -R no-hardcoded-string-literal.xml -d C:\temp\HelloWorld.java -f html
+    ```
 
-        Sample:
-        pmd -R no-hardcoded-string-literal.xml -d C:\temp\HelloWorld.java -f html
+    **Note:** You may execute `pmd -h` for help.
+    {: .notice}
+
 5. View the output. Below is the HTML output viewed in a web browser upon executing the command above.
-6. *Note: For suppressing checks, may append a ```NOPMD``` comment to the specific line of code.*
+
+**Pro Tip:** For suppressing checks, may append a `NOPMD` comment to the specific line of code.
+{: .notice}
 
 ### Sample Result
-![alt text](/assets/img/blog/find-string-literal-pmd.png "PMD HTML Output")
-
+![image-center](/assets/img/blog/find-string-literal-pmd.png "PMD HTML Output"){: .align-center}
 
 PMD is a great tool and utilizing it will surely increase the code quality of developers. I'll try to post about PMD integration with a CI] tool for automated code review in the future.
-
 
 [find-hardcoded-eclipse]: /blog/tips&tricks/java/eclipse/find-java-string-literal-eclipse/
 [pmd]: http://pmd.sourceforge.net

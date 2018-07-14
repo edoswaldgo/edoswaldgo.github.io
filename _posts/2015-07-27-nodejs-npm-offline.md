@@ -22,21 +22,26 @@ As the package manager of Node.js relies on an Internet connection to retrieve p
 
 **Workstation with Internet connection:**
 
-1. Download and install [Node.js][Node.js]. (This will automatically install ```npm```)
+1. Download and install [Node.js][Node.js]. (This will automatically install `npm`)
 2. Open any desired terminal / command-line client.
-3. Install the npmbox package from ```npm```.
+3. Install the npmbox package from `npm`.
 
-        npm install npmbox
+    ```bash
+    npm install npmbox
+    ```
 
-3. To verify that npmbox is successfully installed, may execute the commands provided by npmbox like ```npmbox``` and ```npmunbox``` directly from the command-line.
+3. To verify that npmbox is successfully installed, may execute the commands provided by npmbox like `npmbox` and `npmunbox` directly from the command-line.
 
-        Usage:
-        npmbox --help
-        npmunbox --help
+    ```bash
+    npmbox --help
+    npmunbox --help
+    ```
 
 4. Now, we must archive the npmbox package in order to be used by other machines without Internet connection. (It is rather strange that we are archiving the archiver.)
 
-        npmbox npmbox
+    ```bash
+    npmbox npmbox
+    ```
 
 5. Copy the installer of Node.js and the generated file of npmbox to the workstations without Internet connection.
 
@@ -47,28 +52,35 @@ As the package manager of Node.js relies on an Internet connection to retrieve p
 3. Go to the directory having the .npmbox file.
 4. Untar the .npmbox file
 
-        Linux:
-        tar -xvf yourfile.tar
+    ```bash
+    tar -xvf yourfile.tar
+    ```
 
-        Windows:
-        If Cygwin or any BASH terminal simulator is installed, may just use the command same as Linux. If none, may use other tools like [7zip][7zip].
-
-5. In the same directory, a new folder named ```.npmbox-cache-folder``` will be generated.
+5. In the same directory, a new folder named `.npmbox-cache-folder` will be generated.
 6. Execute the following command in order to use the offline feature of npm for installing npmbox. (I got the command from [here][npm-offline-command].)
 
-        npm install --global --cache ./.npmbox-cache --optional --cache-min 999999 --fetch-retries 0 --fetch-retry-factor 0 --fetch-retry-mintimeout 1 --fetch-retry-maxtimeout 2 npmbox
+    ```bash
+    npm install --global --cache ./.npmbox-cache --optional \
+                --cache-min 999999 --fetch-retries 0 \
+                --fetch-retry-factor 0 --fetch-retry-mintimeout 1 \
+                --fetch-retry-maxtimeout 2 npmbox
+    ```
+
 7. Verify if npmbox is successfully installed to the machine.
-8. May now install archived JavaScript packages (in ```.npmbox``` extension) using the ```npmunbox``` command.
+8. May now install archived JavaScript packages (in `.npmbox` extension) using the `npmunbox` command.
 
-**Notes:**
+{% capture notice-text %}
+* In case error is encountered while unboxing the archived package, may check if the npmbox installed in the workstations have the same versions.
+* If the npmbox versions are the same, but *online errors* are still encountered, try installing version 1.0 of npmbox.
+{% endcapture %}
 
-1. In case error is encountered while unboxing the archived package, may check if the npmbox installed in the workstations have the same versions.
-2. If the npmbox versions are the same, but *online errors* are still encountered, try installing version 1.0 of npmbox.
-
+<div class="notice--info">
+  <h4>Notes:</h4>
+  {{ notice-text | markdownify }}
+</div>
 
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/
 [npmbox]: https://www.npmjs.com/package/npmbox
-[7zip]: http://www.7-zip.org/
 [npm-offline-command]: http://stackoverflow.com/questions/25549730/install-npmbox-on-a-windows-offline-machine
 [node.js-trend]: https://blog.risingstack.com/how-google-sees-node-js/

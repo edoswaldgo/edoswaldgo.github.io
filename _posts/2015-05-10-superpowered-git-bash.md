@@ -15,12 +15,12 @@ Git Bash brings many great features that are very helpful to Git users. Probably
 
 Another great feature that it provides is the color coded output. Colors let the users classify the output easily as compared to just displaying a block of text in plain white.
 
-![alt text](/assets/img/blog/superpowered-git-bash/git-bash-features.png "Git Bash Features")
+![image-center](/assets/img/blog/superpowered-git-bash/git-bash-features.png "Git Bash Features"){: .align-center}
 
 ### Why I don't want to use it?
 It is difficult to copy text inside Git Bash as too many clicks are needed to be done. It is a must to use "Edit -> Mark" via the context menu of Git Bash in order to highlight the text to be copied.
 
-![alt text](/assets/img/blog/superpowered-git-bash/git-bash-mark-text.png "Git Bash Mark")
+![image-center](/assets/img/blog/superpowered-git-bash/git-bash-mark-text.png "Git Bash Mark"){: .align-center}
 
 ### Solution
 Use [ConEmu][conemu] or a different third-party terminal program that supports running of any desired shell. ConEmu supports highlighting of text via click and drag of the mouse. After installing ConEmu, please see the steps below for integrating ConEmu and Git Bash.
@@ -31,12 +31,12 @@ Use [ConEmu][conemu] or a different third-party terminal program that supports r
 4. Specify the command to use for starting Git Bash (*may just copy the target of Git Bash properties*).
 5. Save the settings.
 
-    ![alt text](/assets/img/blog/superpowered-git-bash/conemu-settings.png "ConEmu Settings")
+    ![image-center](/assets/img/blog/superpowered-git-bash/conemu-settings.png "ConEmu Settings"){: .align-center}
 
 ### Trying It Out
 Create a new console dialog by clicking the "+" icon and choose the newly added ConEmu task. This will create a new tab in the ConEmu instance used.
 
-![alt text](/assets/img/blog/superpowered-git-bash/conemu-create-console.png "ConEmu Create Console Dialog")
+![image-center](/assets/img/blog/superpowered-git-bash/conemu-create-console.png "ConEmu Create Console Dialog"){: .align-center}
 
 Done. Git Bash is now integrated with ConEmu and may now use the features of both terminal emulators.
 
