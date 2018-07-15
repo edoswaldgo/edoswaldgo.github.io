@@ -9,10 +9,8 @@ tags:
 - git
 - cli
 ---
-{% comment %}
-**Updated {{ page.last_modified_at | date: "%Y-%m-%d" }}:** I found a better alternative for Windows last 2016. Click [here](/software%20development/cmder-convenient-alternative/) to learn more.
+**Updated {{ page.last_modified_at | date: "%Y-%m-%d" }}:** I found a better alternative last 2016, which I think is the best free console emulator for Windows. Click [here](/software/cmder-hassle-free-windows-console-emulator/) to learn more.
 {: .notice--info}
-{% endcomment %}
 
 ### Overview
 [Git Bash by MSysGit][msysgit] is a terminal emulator for running Git from the command-line. It provides a Linux/Unix like environment for Windows when using the ```git``` command.
@@ -49,4 +47,3 @@ Done. Git Bash is now integrated with ConEmu and may now use the features of bot
 
 [conemu]: http://conemu.github.io/
 [msysgit]: https://msysgit.github.io/
-[cmder-post]: /software%20development/cmder-convenient-alternative/
