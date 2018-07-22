@@ -1,6 +1,7 @@
 ---
 layout: splash
 permalink: /
+description: "Personal website of Ed Oswald Go. Learn about his adventures in software development, technology, photography, and more!"
 title: Home
 header:
   overlay_color: "#5e616c"
