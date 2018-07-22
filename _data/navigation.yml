@@ -4,8 +4,8 @@ main:
     url: /blog
   - title: "Photography"
     url: https://www.flickr.com/oswaldogo
-  # - title: "About"
-  #   url: /about
+  - title: "About"
+    url: /about
   # - title: "Contact"
   #   url: /contact
   # - title: "Sample Posts"
