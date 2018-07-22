@@ -28,7 +28,7 @@ feature_row:
     alt: "projects"
     title: "Projects"
     excerpt: "Side projects outside my day job which opens an avenue to learn new things and to try new experiences."
-    url: "/categories#project"
+    url: "/tags#project"
     btn_class: "btn--primary"
     btn_label: "View Projects"
 
