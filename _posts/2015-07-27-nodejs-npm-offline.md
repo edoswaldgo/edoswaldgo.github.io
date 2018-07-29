@@ -7,17 +7,20 @@ tags:
 - npm
 ---
 
-### Overview
+## Overview
+
 It's been awhile since the last time I posted on my blog. I've been quite busy during the past weeks and kept resting on weekends. Sorry for not being able to post and give weekly updates. Today, I'll tackle something about [Node.js][Node.js].
 
 Node.js is rapidly gaining popularity in software development nowadays due to many reasons (may check the trend [here][node.js-trend]). One of the reasons is the usage of JavaScript for server-side. Imagine, coding the back-end and front-end using the same language.
 
 Also, it uses a package manager named, [npm][npm]. It has a repository of JavaScript packages which are retrieved from the Internet to be used by Node.js applications.
 
-### Problem
+## Problem
+
 Not all organizations provide complete access to the Internet. Some might have intranet networks without any access to the Internet. Given this scenario, how can an individual use npm to install desired Javascript libraries?
 
-### Solution
+## Solution
+
 As the package manager of Node.js relies on an Internet connection to retrieve packages. [npmbox][npmbox] is created in order to archive online packages including their dependencies. Yes, the dependencies are included. It can greatly save us from installation headaches.
 
 **Workstation with Internet connection:**

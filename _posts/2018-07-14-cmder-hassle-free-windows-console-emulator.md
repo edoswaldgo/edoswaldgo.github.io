@@ -9,7 +9,7 @@ tags:
 - cli
 ---
 
-### Overview
+## Overview
 
 I spent most of my coding career using Windows but last 2016, I needed to start using [Mac OS X][osx] full-time. The transition is quite smooth but one should get use to pressing the Command Key (`⌘`) instead of Control (`Ctrl`). After I got used to it, the ergonomic experience felt more natural as less hand re-positioning is needed.
 
@@ -17,7 +17,7 @@ Aside from typing experience, one major thing I like with OS X is the Unix comma
 
 Due to some circumstance, I needed to use Windows again as my development environment. How will I transition back to Windows? Am I doomed? *\*sobs\**
 
-### Questions
+## Questions
 
 1. Should I just use the Windows Command Prompt? *Definitely \*pause\* not.*
 
@@ -29,7 +29,7 @@ Due to some circumstance, I needed to use Windows again as my development enviro
 
 5. How about the pleasing user interface from OS X?
 
-### Discovery
+## Discovery
 
 Upon setting up my development environment for Windows, luckily, I found the [Cmder][cmder] tool!
 
@@ -56,7 +56,7 @@ The tool answered all the concerns I mentioned on the previous section. Below ar
 **Pro Tip:** Just get the full version. It is really that convenient.
 {: .notice}
 
-### Conclusion
+## Conclusion
 
 I have been using Cmder for quite some time now. In my opinion, the convenience and features that Cmder brings, makes it the best free console emulator for Windows.
 

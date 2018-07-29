@@ -9,13 +9,16 @@ tags:
 - cli
 ---
 
-### Overview
+## Overview
+
 My blog post last week (*click [here][superpowered-gitbash] to view*) was about integrating [Git Bash for Windows][msysgit] with [ConEmu][conemu]. I forgot to include that Git Bash can add a context menu entry in Windows' explorer named, "Git Bash Here". Basically, that context menu entry will open Git Bash given the current directory of the file explorer. This feature greatly helps users who are used to navigating via GUI.
 
-### Problem
+## Problem
+
 Provided that readers have already integrated Git Bash with ConEmu, they need to start ConEmu from a default directory and navigate to their desired working directory. How can users have the "Git Bash Here" feature, but using ConEmu?
 
-### Solution
+## Solution
+
 ConEmu supports integration with the file explorer's context menu, easily. In order to add a context menu entry to Windows' File Explorer that will directly open ConEmu, may follow the steps below.
 
 1. Open the settings dialog of ConEmu and go to *Integration*.
@@ -43,7 +46,8 @@ ConEmu supports integration with the file explorer's context menu, easily. In or
 
     ![image-center](/assets/img/blog/conemu-git-bash-contextmenu/conemu-settings.png "ConEmu Settings"){: .align-center}
 
-### Trying It Out
+## Trying It Out
+
 For testing the feature, browse any directory and follow the steps below.
 
 1. Right click inside the file explorer window to display the context menu.

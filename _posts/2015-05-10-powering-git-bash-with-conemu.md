@@ -12,22 +12,26 @@ tags:
 **Updated {{ page.last_modified_at | date: "%Y-%m-%d" }}:** I found a better alternative last 2016, which I think is the best free console emulator for Windows. Click [here](/software/cmder-hassle-free-windows-console-emulator/) to learn more.
 {: .notice--info}
 
-### Overview
+## Overview
+
 [Git Bash by MSysGit][msysgit] is a terminal emulator for running Git from the command-line. It provides a Linux/Unix like environment for Windows when using the ```git``` command.
 
-### Why do I use it?
+## Why do I use it?
+
 Git Bash brings many great features that are very helpful to Git users. Probably, the best feature it offers is the auto completion of git commands and options when pressing the "Tab" key. This feature is very helpful for starters, *like me*, that are not very familiar with git. It also displays the current active branch and the state of the Git repository which is really really helpful.
 
 Another great feature that it provides is the color coded output. Colors let the users classify the output easily as compared to just displaying a block of text in plain white.
 
 ![image-center](/assets/img/blog/superpowered-git-bash/git-bash-features.png "Git Bash Features"){: .align-center}
 
-### Why I don't want to use it?
+## Why I don't want to use it?
+
 It is difficult to copy text inside Git Bash as too many clicks are needed to be done. It is a must to use "Edit -> Mark" via the context menu of Git Bash in order to highlight the text to be copied.
 
 ![image-center](/assets/img/blog/superpowered-git-bash/git-bash-mark-text.png "Git Bash Mark"){: .align-center}
 
-### Solution
+## Solution
+
 Use [ConEmu][conemu] or a different third-party terminal program that supports running of any desired shell. ConEmu supports highlighting of text via click and drag of the mouse. After installing ConEmu, please see the steps below for integrating ConEmu and Git Bash.
 
 1. Open the settings dialog of ConEmu and go to Startup -> Tasks
@@ -38,7 +42,8 @@ Use [ConEmu][conemu] or a different third-party terminal program that supports r
 
     ![image-center](/assets/img/blog/superpowered-git-bash/conemu-settings.png "ConEmu Settings"){: .align-center}
 
-### Trying It Out
+## Trying It Out
+
 Create a new console dialog by clicking the "+" icon and choose the newly added ConEmu task. This will create a new tab in the ConEmu instance used.
 
 ![image-center](/assets/img/blog/superpowered-git-bash/conemu-create-console.png "ConEmu Create Console Dialog"){: .align-center}

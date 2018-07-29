@@ -8,17 +8,20 @@ tags:
 - pmd
 ---
 
-### Overview
+## Overview
+
 My blog post yesterday (*Click [here][find-hardcoded-eclipse] to view*) was about finding hard-coded Java String literals via [Eclipse][eclipse]. I separated this post (*even if they are closely related*) because the post yesterday is a stand-alone solution.
 
 This new post will focus more on the limitations and integration problems of just using the code style check of Eclipse.
 
-### Problem
+## Problem
+
 1. Not all developers use Eclipse for their development environment.
 2. Developers can just ignore and bypass the fixing of hardcoded strings.
 3. Easy integration with other software like [Jenkins][jenkins] / [Hudson][hudson] for [CI (*Continuous Integration*)][ci] and [SonarQube][sonarqube] for code quality monitoring.
 
-### Solution
+## Solution
+
 Many source code analyzers are available in Java and [PMD][pmd] is one of the commonly used tool. This tool can spot different kinds of code smells and it has great integration support for other software. It can be used as build breakers for enforcing developers to fix their code as early as possible.
 
 To have a better understanding of the tool, I suggest to check the documentation of the tool as the documentation is very detailed.
@@ -68,7 +71,8 @@ Sadly, my approach is not really neat because it requires the threshold to be se
 **Pro Tip:** For suppressing checks, may append a `NOPMD` comment to the specific line of code.
 {: .notice}
 
-### Sample Result
+## Sample Result
+
 ![image-center](/assets/img/blog/find-string-literal-pmd.png "PMD HTML Output"){: .align-center}
 
 PMD is a great tool and utilizing it will surely increase the code quality of developers. I'll try to post about PMD integration with a CI] tool for automated code review in the future.
