@@ -1,5 +1,6 @@
 ---
 title: "Custom Merge and Diff Tool for Git"
+excerpt: "A partial guide on using different merge and diff tools like P4Merge and WinMerge for Git."
 categories:
 - software
 tags:

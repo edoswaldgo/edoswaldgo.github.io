@@ -1,5 +1,6 @@
 ---
 title: "Find Hard-coded String Literals via PMD"
+excerpt: "Guide on finding hard-coded strings in Java using the PMD tool."
 categories:
 - software
 tags:

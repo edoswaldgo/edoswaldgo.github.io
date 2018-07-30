@@ -1,5 +1,6 @@
 ---
 title: "Find Hard-coded String Literals via Eclipse"
+excerpt: "Guide on finding hard-coded strings in Java using the Eclipse IDE."
 categories:
 - software
 tags:

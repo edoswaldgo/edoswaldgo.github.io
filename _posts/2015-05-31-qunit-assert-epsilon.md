@@ -1,5 +1,6 @@
 ---
 title: "QUnit Assert Equality with Machine Epsilon"
+excerpt: "Guide on using QUnit for asserting numeric values having long precision in JavaScript."
 categories:
 - software
 tags:

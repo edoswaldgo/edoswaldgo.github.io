@@ -1,5 +1,6 @@
 ---
 title: "Offline installation of npm packages"
+excerpt: "Guide on how to install NPM packages for Node.js using the npmbox tool."
 categories:
 - software
 tags:
