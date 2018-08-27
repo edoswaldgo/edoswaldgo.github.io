@@ -78,7 +78,7 @@ Sadly, my approach is not really neat because it requires the threshold to be se
 
 PMD is a great tool and utilizing it will surely increase the code quality of developers. I'll try to post about PMD integration with a CI] tool for automated code review in the future.
 
-[find-hardcoded-eclipse]: /blog/tips&tricks/java/eclipse/find-java-string-literal-eclipse/
+[find-hardcoded-eclipse]: /software/find-java-string-literal-eclipse/
 [pmd]: http://pmd.sourceforge.net
 [eclipse]: https://eclipse.org
 [ide]: https://en.wikipedia.org/wiki/Integrated_development_environment
