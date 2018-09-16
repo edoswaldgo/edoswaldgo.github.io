@@ -73,6 +73,8 @@ Mirrorless cameras seem to have grown a lot since inception. Battery life is now
 
 ## Conclusion
 
+![image-center](/assets/img/blog/cameras/fujifilm-x-a10.jpg "Light box interior"){: .align-center}
+
 In the end, I opted for a different system and picked the entry-level [Fujifilm X-A10][fuji-xa10] mirrorless camera. I am quite happy for its performance, output, price, size, and aesthetics. But, please note that there are some drawbacks as well with this camera. It does not have a viewfinder which can be very helpful for a bright sunny environment. Also, if you usually crop photos for composition, the 16MP sensor might be a concern to you.
 
 **Alternatives:** May check [Sony α6000][sony-a6000] or the new [Fujifilm X-T100][fuji-xt100] for mirrorless alternatives to address the concerns above but for a higher cost.
