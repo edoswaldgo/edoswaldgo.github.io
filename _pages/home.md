@@ -5,26 +5,26 @@ description: "Personal website of Ed Oswald Go. Learn about his adventures in so
 title: Home
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/home/home-feature-DSCF2916.JPG
+  overlay_image: /assets/images/home/home-feature-1920x1280.jpg
   caption: "Queenstown Gardens, New Zealand"
 excerpt: '<br /><br />Try. Learn. Repeat. <br /><br /><br /><br />'
 
 feature_row:
-  - image_path: /assets/images/home/blog-DSCF2900.JPG
+  - image_path: /assets/images/home/blog-450x300.jpg
     alt: "blog"
     title: "Blog"
     excerpt: "My journal that tackles interesting things and activities, like technology, computers, gadgets, software development, photography, food, and travel."
     url: "/blog/"
     btn_class: "btn--primary"
     btn_label: "View Posts"
-  - image_path: /assets/images/home/photography-DSCF2270.JPG
+  - image_path: /assets/images/home/photography-450x300.jpg
     alt: "photography"
     title: "Photography"
     excerpt: "From not taking any at all, to occasionally taking photographs. Follow my casual journey in capturing various moments, ranging from ordinary to something amazing."
     url: "https://www.flickr.com/oswaldogo"
     btn_class: "btn--primary"
     btn_label: "<i class='fab fa-flickr'></i> Follow Me"
-  - image_path: /assets/images/home/projects-DSCF2215.JPG
+  - image_path: /assets/images/home/projects-450x300.jpg
     alt: "projects"
     title: "Projects"
     excerpt: "Side projects outside my day job which opens an avenue to learn new things and to try new experiences."
