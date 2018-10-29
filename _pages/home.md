@@ -21,14 +21,14 @@ feature_row:
     alt: "photography"
     title: "Photography"
     excerpt: "From not taking any at all, to occasionally taking photographs. Follow my casual journey in capturing various moments, ranging from ordinary to something amazing."
-    url: "https://www.flickr.com/oswaldogo"
+    url: "/photography/"
     btn_class: "btn--primary"
-    btn_label: "<i class='fab fa-flickr'></i> Follow Me"
+    btn_label: "Follow Me"
   - image_path: /assets/images/home/projects-450x300.jpg
     alt: "projects"
     title: "Projects"
     excerpt: "Side projects outside my day job which opens an avenue to learn new things and to try new experiences."
-    url: "/tags#project"
+    url: "/tags/project/"
     btn_class: "btn--primary"
     btn_label: "View Projects"
 
