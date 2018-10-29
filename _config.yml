@@ -136,6 +136,18 @@ author:
   xing             :
   youtube          : 
 
+# Site Footer
+footer:
+  links:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/oswaldogo/"
+    - label: "Flickr"
+      icon: "fab fa-fw fa-flickr"
+      url: "https://www.flickr.com/photos/oswaldogo"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/edoswaldgo"
 
 # Reading Files
 include:
