@@ -8,6 +8,7 @@ categories:
 tags:
 - project
 - diy
+splash_teaser: /assets/img/blog/diy-drybox/diy-drybox-600x450.jpg
 ---
 
 ## Introduction

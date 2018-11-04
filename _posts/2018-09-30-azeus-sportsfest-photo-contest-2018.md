@@ -9,6 +9,7 @@ tags:
 - azeus
 - sportsfest
 - fujifilm
+splash_teaser: /assets/img/blog/photo-contest/chesspectator-600x450.jpg
 ---
 
 ## Introduction

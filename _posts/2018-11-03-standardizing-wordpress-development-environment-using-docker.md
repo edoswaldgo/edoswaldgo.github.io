@@ -9,6 +9,7 @@ tags:
 - wordpress
 - web
 - docker
+splash_teaser: /assets/img/blog/docker-wordpress/landing-page-600x450.jpg
 ---
 
 ## Introduction
