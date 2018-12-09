@@ -1,6 +1,7 @@
 ---
 title: "A Fast SD Card for Your Camera: Do You Need One?"
 excerpt: "Having freezing problems with your camera? Learn why I bought a SanDisk Extreme PRO and how I tested its performance for my Fujifilm X-A10 camera to help overcome the performance bottleneck."
+last_modified_at: "2018-12-09T19:00:00+08:00"
 toc: true
 toc_label: "Table of Contents"
 categories:
@@ -26,7 +27,7 @@ I usually take pictures in RAW + JPEG mode using my [Fujifilm X-A10][fuji-xa10].
 
 In case you are not yet familiar with the SD card speed classes, you will usually see classes 2, 4, 6, and 10; the numbers indicate the minimum write speed of the card in Megabytes per second (MB/s). Now, there are more ratings to cards. You might also see the [Ultra High Speed-I (UHS-I)][uhs] interface classes, U1 or U3, indicating a minimum write speed of *10 MB/s* and *30 MB/s*, respectively.
 
-<a data-flickr-embed="true" data-footer="true"  href="https://www.flickr.com/photos/oswaldogo/46037946041/in/datetaken-public/" title="Test of SD Cards - Guess Who’s The Winner"><img src="https://farm5.staticflickr.com/4871/46037946041_83673a56e5_k.jpg" width="640" height="427" alt="Test of SD Cards - Guess Who’s The Winner"></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/oswaldogo/46037946041/in/datetaken-public/" title="Test of SD Cards - Guess Who’s The Winner"><img src="https://farm5.staticflickr.com/4871/46037946041_83673a56e5_k.jpg" width="640" height="427" alt="Test of SD Cards - Guess Who’s The Winner"></a>
 
 I recently purchased a 32GB [SanDisk Extreme PRO][sandisk-extreme-pro] which is a class 10 UHS-I U3 card. It has a read speed rating of up to *95 MB/s* and up to *90 MB/s* for its write speed. I opted to buy the Extreme PRO instead of the [Extreme][sandisk-extreme] version because of the write speed rating difference.
 
@@ -36,7 +37,7 @@ I recently purchased a 32GB [SanDisk Extreme PRO][sandisk-extreme-pro] which is 
 The Extreme version only supports a write speed of up to *40 MB/s* for 16-64 GB and up to *60 MB/s* for the 128-256 GB variants. Aside from the write speed rating difference, the Extreme PRO has a better bang for my buck because of the price to write speed ratio. I gave more importance to the write speed ratio as compared to the price to capacity ratio for this case.
 
   ```
-  Extreme 32GB: 
+  Extreme 32GB:
   600 PHP / 40 MBps = 15 PHP / MBps
   600 PHP / 32 GB = 18.75 PHP / GB
 
@@ -48,7 +49,7 @@ The Extreme version only supports a write speed of up to *40 MB/s* for 16-64 GB 
 **Note:** Prices are rounded up and are not the SRPs as of 25-November 2018. Also, please be aware that there are many fake memory cards. Double check the credibility of the sellers before buying.
 {: .notice--warning}
 
-## Testing the SD Card 
+## Testing the SD Card
 
 As there are many fake memory cards being sold today, first, I wanted to verify the performance of the card I bought if it lives up to the rating of the manufacturer. It would be a waste if I bought a fake memory card that performs like a lower class one. For this verification, I found a great software named [CrystalDiskMark][crystaldiskmark]. It is an open-source disk benchmark tool for measuring the read and write performance of your hard disk, SSD, and/or flash drives. 
 
@@ -107,9 +108,11 @@ The performance of the Sandisk Extreme PRO did not disappoint me even if it did 
 
 I am happy with my purchase given that SD card prices are now more affordable while achieving great performance. But really, I do not need that much of a performance because I do not take photos in burst mode as most photos I take are landspaces and products. I am hoping that I will not encounter any laggy moments in the future while using the SanDisk Extreme PRO card.
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/oswaldogo/45516397954/in/datetaken-public/" title="SanDisk Extreme PRO - The Missing Piece"><img src="https://farm2.staticflickr.com/1956/45516397954_220055b3a3_z.jpg" width="640" height="427" alt="SanDisk Extreme PRO - The Missing Piece"></a>
+
 Having a faster and better performing SD card is essential for increasing the throughput of your camera. They are great helpers but the need still depends on your use case, photography style, and budget. Below are some pointers that might help you decide if need an upgrade or not.
 
-1. If you are not having problems or hiccups with your current setup, then you do not need an upgrade. 
+1. If you are not having problems or hiccups with your current setup, then you do not need an upgrade.
 2. If you are purely shooting JPEGs or shooting one image at a time, then you are probably fine with a normal class 10 card.
 3. If your SD card is broken, buy a reliable one with the appropriate speed for your camera.
 4. If you shoot many many many photos and tired of waiting, go with higher speeds.
