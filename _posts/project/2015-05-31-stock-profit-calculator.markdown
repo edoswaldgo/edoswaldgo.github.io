@@ -1,5 +1,7 @@
 ---
 title:  "JavaScript Stock Profit Calculator"
+redirect_from:
+  - /project/stock-profit-calculator/
 categories:
 - software
 tags:

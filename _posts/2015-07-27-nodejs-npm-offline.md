@@ -1,5 +1,7 @@
 ---
 title: "Offline installation of npm packages"
+redirect_from:
+  - /blog/tips&tricks/node.js/npm/nodejs-npm-offline
 excerpt: "Guide on how to install NPM packages for Node.js using the npmbox tool."
 categories:
 - software

@@ -1,5 +1,8 @@
 ---
 title: "How to Add ConEmu to Windows Context Menu"
+redirect_from:
+  - /blog/tips&tricks/git/command-line/conemu-git-bash-contextmenu
+  - /software%20development/conemu-git-bash-contextmenu
 excerpt: "Guide on how to add a context menu entry in Windows for ConEmu. This is to mimic the handy \"Git Bash Here\" feature of Git Bash."
 categories:
 - software

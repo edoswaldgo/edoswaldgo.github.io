@@ -1,5 +1,11 @@
 ---
 title: "Buying My First Dedicated Camera: Fujifilm X-A10"
+redirect_from:
+  - /tags/buying-my-first-camera-fujifilm-xa10
+  - /home/buying-my-first-camera-fujifilm-xa10
+  - /software/buying-my-first-camera-fujifilm-xa10
+  - /blog/buying-my-first-camera-fujifilm-xa10
+  - /buying-my-first-camera-fujifilm-xa10
 excerpt: "Wanting to buy a new camera for travel? Learn why I bought an entry-level camera and how I picked Fujifilm X-A10 as my first camera."
 toc: true
 toc_label: "Table of Contents"

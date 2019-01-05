@@ -1,5 +1,7 @@
 ---
 title: "QUnit Assert Equality with Machine Epsilon"
+redirect_from:
+  - /blog/javascript/unit%20testing/qunit-assert-epsilon
 excerpt: "Guide on using QUnit for asserting numeric values having long precision in JavaScript."
 categories:
 - software

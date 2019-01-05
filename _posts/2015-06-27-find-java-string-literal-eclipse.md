@@ -1,5 +1,7 @@
 ---
 title: "Find Hard-coded String Literals via Eclipse"
+redirect_from:
+  - /blog/tips&tricks/java/eclipse/find-java-string-literal-eclipse
 excerpt: "Guide on finding hard-coded strings in Java using the Eclipse IDE."
 categories:
 - software

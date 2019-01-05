@@ -1,5 +1,11 @@
 ---
 title: "Azeus Outing Photo Contest 2018: My First Casual Photo Contest"
+redirect_from:
+  - /tags/my-first-azeus-outing-photo-contest
+  - /blog/my-first-azeus-outing-photo-contest
+  - /home/my-first-azeus-outing-photo-contest
+  - /software/my-first-azeus-outing-photo-contest
+  - /my-first-azeus-outing-photo-contest
 excerpt: "The Azeus Photography Enthusiasts (APE) organized a photo contest for this year's company outing at Las Casas Filipinas de Acuzar. Check out my entries for my first casual photo contest!"
 toc: true
 toc_label: "Table of Contents"

@@ -1,5 +1,7 @@
 ---
 title: "Powering Git Bash for Windows with ConEmu"
+redirect_from:
+  - /blog/tips&tricks/git/command-line/superpowered-git-bash
 last_modified_at: "2018-07-10T14:00:00+08:00"
 excerpt: "Guide on how to add power-ups, like tabs, to Git Bash on Windows through the use of ConEmu."
 categories:
