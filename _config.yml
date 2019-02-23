@@ -89,7 +89,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - "https://instagram.com/oswaldogo"
+    - "https://instagram.com/edoswaldgo"
     - "https://www.flickr.com/photos/oswaldogo"
     - "https://www.linkedin.com/in/edoswaldgo"
     - "https://facebook.com/ed.oswald.go"
@@ -122,7 +122,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "oswaldogo"
+  instagram        : "edoswaldgo"
   lastfm           :
   linkedin         : "edoswaldgo"
   pinterest        :
@@ -141,7 +141,7 @@ footer:
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/oswaldogo/"
+      url: "https://www.instagram.com/edoswaldgo/"
     - label: "Flickr"
       icon: "fab fa-fw fa-flickr"
       url: "https://www.flickr.com/photos/oswaldogo"
