@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.13.0"
+remote_theme             : "mmistakes/minimal-mistakes@4.19.3"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -20,6 +20,7 @@ title                    : "Ed Oswald Go"
 title_separator          : "|"
 name                     : "Ed Oswald Go"
 description              : "Personal website of Ed Oswald Go. Learn about his adventures in software development, technology, photography, and more!"
+logo                     : "/assets/images/ego-logo.svg"
 url                      : "https://edoswaldgo.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "edoswaldgo/edoswaldgo.github.io"
@@ -107,7 +108,7 @@ analytics:
 author:
   name             : "Ed Oswald Go"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Software Developer | Cineast | Muso | Gamer"
+  bio              : "Software developer, hobbyist photographer, audio, film and tv buff"
   location         : "NCR, Philippines"
   email            : # optional
   uri              :
@@ -227,6 +228,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-redirect-from
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -236,6 +238,7 @@ whitelist:
   - jekyll-feed
   - jemoji
   - jekyll-redirect-from
+  - jekyll-include-cache
 
 
 # Archives
