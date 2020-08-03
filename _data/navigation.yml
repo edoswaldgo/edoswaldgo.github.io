@@ -4,6 +4,10 @@ main:
     url: /blog/
   - title: "Photography"
     url: /photography/
+  - title: "Tech"
+    url: /tags/technology/
+  - title: "Adulting"
+    url: /adulting/
   - title: "Archive"
     url: /year-archive/
   - title: "About"

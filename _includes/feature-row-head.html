@@ -14,7 +14,7 @@
 
 <div class="feature__wrapper">
 
-  {% for f in feature_row limit:3 %}
+  {% for f in feature_row limit:6 %}
 
     {% if f.url contains "://" %}
       {% capture f_url %}{{ f.url }}{% endcapture %}

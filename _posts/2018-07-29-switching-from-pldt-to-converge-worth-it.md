@@ -4,9 +4,16 @@ excerpt: "Check our experience switching from PLDT MyDSL Plan 1299 to Converge F
 toc: true
 toc_label: "Table of Contents"
 categories:
-- home
+- adulting
 tags:
 - internet
+- subscription
+- home
+- converge
+- pldt
+- fiber
+- dsl
+- network
 ---
 
 ## Introduction

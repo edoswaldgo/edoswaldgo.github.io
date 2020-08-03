@@ -4,12 +4,14 @@ excerpt: "Three days left before the big 12.12 sale and you surely are excited w
 toc: true
 toc_label: "Table of Contents"
 categories:
-- home
+- adulting
 tags:
+- home
 - guide
 - tips
 - shopping
-- adulting
+- buyers-guide
+- appliances
 - finance
 splash_teaser: /assets/img/blog/appliances/washing-machine-knobs-600x450.jpg
 ---
