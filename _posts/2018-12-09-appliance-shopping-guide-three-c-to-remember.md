@@ -2,6 +2,7 @@
 title: "Appliance Shopping Guide - Three Cs to Remember When Buying Appliances"
 redirect_from:
   - /home/appliance-shopping-guide-three-c-to-remember
+  - /home/appliance-shopping-guide-three-c-to-remember/
 excerpt: "Three days left before the big 12.12 sale and you surely are excited with sale and promos. Before purchasing, read my guide for tips on how to shop wisely."
 toc: true
 toc_label: "Table of Contents"
