@@ -1,5 +1,7 @@
 ---
 title: "Switching to Converge Fiber X: Is it Worth It?"
+redirect_from:
+  - /home/switching-from-pldt-to-converge-worth-it
 excerpt: "Check our experience switching from PLDT MyDSL Plan 1299 to Converge Fiber X Plan 1500 and see if it is worth it."
 toc: true
 toc_label: "Table of Contents"
