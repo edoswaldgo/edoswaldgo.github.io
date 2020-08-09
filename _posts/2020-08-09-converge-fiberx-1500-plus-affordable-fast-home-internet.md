@@ -1,6 +1,6 @@
 ---
 title: "Converge Fiber X 1500 Plus Still Available! Is It The Best Fiber Plan for You?"
-excerpt: "Choosing the right fiber plan that will best fit for your home needs. Check out if the ongoing add-on promo of Converge Fiber X 1500 plan is the right one for you and your family."
+excerpt: "Choosing the right fiber plan that will best fit your home needs? Check out if the ongoing add-on promo of Converge Fiber X 1500 plan is the right one for you and your family."
 toc: true
 toc_label: "Table of Contents"
 categories:
@@ -19,15 +19,15 @@ splash_teaser: /assets/img/blog/internet/network-router-600x450.jpg
 
 ## Introduction
 
-Last month, I received a notification from [Converge][converge] that their [add-on promo][converge-1500-plus] for _Fiber X Plan 1500_ is still available. You only need to add _**99 PHP per month**_ to upgrade your connection from _**25 Mbps to 35 Mbps**_!
+Last month, I received a notification from [Converge][converge] that their [add-on promo][converge-1500-plus] for _Fiber X Plan 1500_ is still available. I only need to add _**99 PHP per month**_ to upgrade my connection from _**25 Mbps to 35 Mbps**_!
 
 
 I highly recommend the add-on promo for existing Converge subscribers especially if you belong the following.
 
-1. someone who wants a better value plan without breaking the bank.
-2. someone who loves to watch [Netflix][netflix] in 4K / UltraHD for added buffer (see bandwidth recommendations [here][netflix-recommendation]).
-3. someone who gets impatient in downloading large PC or console games and updates (_Hooray for the additional 1.25MB/s_).
-4. member of a household (_5-6 pax_) that streams multiple high-resolution videos simultaneously
+- someone who wants a better value plan without breaking the bank
+- someone who loves to watch [Netflix][netflix] in 4K / UltraHD for added buffer (see bandwidth recommendations [here][netflix-recommendation])
+- someone who gets impatient in downloading large PC or console games and updates (_Hooray for the additional 1.25MB/s_)
+- member of a household (_5-6 pax_) that streams multiple high-resolution videos simultaneously
 
 
 Amidst the pandemic, maybe you are planning to subscribe to a new fiber plan for your work from home setup. Choosing the right plan can be a daunting task because you will be sticking with it for quite a long time. Let's find out if this is the right plan for you.
@@ -39,7 +39,7 @@ Below are the lists of the plan offerings of Converge, PLDT, and Globe as of _09
 
 The costs prepared only cover the base plan price. I did not include the contract duration and extras like installation fee, modem fee, and freebies in order to simplify the computation. 
 
-Let's also assume that they all have the same reliability rate and level of customer support to not have any biases.
+Let's also assume that they all have the same reliability rate and level of customer support so as to not have any biases.
 
 ### [Converge Fiber X Plans][converge-fiber-plans]
 
@@ -110,9 +110,9 @@ Should you just go for PLDT or Globe, then? **It depends.** If you need or want 
 
 Every household / person has different needs and use cases. For our case, subscribing to Converge Fiber X 1500 (w/ add-on) is the right plan because we don't need a landline. Even if the cost per Mbps is slightly higher, the total cost per year is still lower.
 
-Remember to check your budget first before determining your wants. Also, don't ever forget to include mobile data plans of every household member when budgeting.
+Remember to check your budget first before determining your wants. Also, don't forget to include mobile data plans of every household member when budgeting.
 
-Hope my post helped you decide! Stay safe!
+Hope my post helps you decide! Stay safe!
 
 [netflix]: https://www.netflix.com/
 [netflix-recommendation]: https://help.netflix.com/en/node/306
