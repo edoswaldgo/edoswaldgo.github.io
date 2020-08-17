@@ -21,7 +21,7 @@ splash_teaser: /assets/img/blog/photography/raw-therapee/sooc-lightroom-rawthera
 
 ## Introduction
 
-Few years have passed, I want to know the improvements in [RawTherapee][rawtherapee] and see if I should now edit using my desktop computer.
+Few years have passed since I last used [RawTherapee][rawtherapee]. I want to know the improvements in RawTherapee and see if I should now edit using my desktop computer.
 
 Well, there's great news! The problem about the default washed out images I mentioned in my [old post][lr-workflow-post] has already been updated in versions 5.4 and above.
 
@@ -40,7 +40,7 @@ The output of the default profile of RawTherapee looks nice. But, how does it co
 
 ## Comparison - Defaults
 
-The default output of RawTherapee does not fully mimic the SOOC shot. It looks brighter with green tint. Skin tone is on the yellowish side and the browns look more orangy. I also noticed that the image is smoother which have less details but with less noise.
+The default output of RawTherapee does not fully mimic the SOOC shot. It looks brighter and with green tint. Skin tone is on the yellowish side and the browns look more orangy. I also noticed that the image is smoother (less noise) but with less details.
 
 On the other hand, Lightroom's output is more similar to the SOOC image. It is just a bit brighter and saturated. Skin tone looks more natural with a bit of magenta tint. It also looks grainier which is likely due to a brighter image.
 
