@@ -1,6 +1,6 @@
 ---
-title: "Replicating Lightroom Mobile Defaults in Raw Therapee - Can this be achieved?"
-excerpt: "Are you also a Lightroom Mobile user wanting to edit on a desktop computer? Check how I try to replicate the default output of Adobe Lightroom using Raw Therapee."
+title: "Replicating Lightroom Mobile Defaults in RawTherapee - Can this be achieved?"
+excerpt: "Are you also a Lightroom Mobile user wanting to edit on a desktop computer? Check how I try to replicate the default output of Adobe Lightroom using RawTherapee."
 toc: true
 toc_label: "Table of Contents"
 categories:
@@ -10,7 +10,7 @@ tags:
 - software
 - adobe
 - lightroom
-- raw therapee
+- rawtherapee
 - editing
 - user experience
 - color grading
@@ -21,26 +21,26 @@ splash_teaser: /assets/img/blog/photography/raw-therapee/sooc-lightroom-rawthera
 
 ## Introduction
 
-Few years have passed, I want to know the improvements in [Raw Therapee][rawtherapee] and see if I should now edit using my desktop computer.
+Few years have passed, I want to know the improvements in [RawTherapee][rawtherapee] and see if I should now edit using my desktop computer.
 
 Well, there's great news! The problem about the default washed out images I mentioned in my [old post][lr-workflow-post] has already been updated in versions 5.4 and above.
 
-**Note:** Verion 5.4 has been released last 20-March 2018. I am so late! (-_-)
+**Note:** Version 5.4 has been released last 20-March 2018. I am so late! (-_-)
 {: .notice}
 
 Based on its documentation [here][rawtherapee-defaults], the software now uses the "Auto-Matched Curve" profile instead of "Neutral" for raw files. The initial state of the imported image will look like your SOOC (_"Straight Out of Camera"_) JPEG.
 
 <figure>
   <img src="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-default.jpg"
-       alt="Image exported using Raw therapee default">
-  <figcaption>Default JPEG output of Raw Therapee</figcaption>
+       alt="Image exported using RawTherapee default">
+  <figcaption>Default JPEG output of RawTherapee</figcaption>
 </figure>
 
-The output of the default profile of Raw Therapee looks nice. But, how does it compare to the output of my camera and the default of [Adobe Lightroom][lightroom]?
+The output of the default profile of RawTherapee looks nice. But, how does it compare to the output of my camera and the default of [Adobe Lightroom][lightroom]?
 
 ## Comparison - Defaults
 
-The default output of Raw Therapee does not fully mimic the SOOC shot. It looks brighter with green tint. Skin tone is on the yellowish side and the browns look more orangy. I also noticed that the image is smoother which have less details but with less noise.
+The default output of RawTherapee does not fully mimic the SOOC shot. It looks brighter with green tint. Skin tone is on the yellowish side and the browns look more orangy. I also noticed that the image is smoother which have less details but with less noise.
 
 On the other hand, Lightroom's output is more similar to the SOOC image. It is just a bit brighter and saturated. Skin tone looks more natural with a bit of magenta tint. It also looks grainier which is likely due to a brighter image.
 
@@ -55,9 +55,9 @@ On the other hand, Lightroom's output is more similar to the SOOC image. It is j
   </a>
   <a href="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-default.jpg">
     <img src="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-default.jpg"
-         alt="Image exported using Raw therapee default">
+         alt="Image exported using RawTherapee default">
   </a>
-  <figcaption>(L to R) Camera SOOC, Lightroom Mobile, and Raw Therapee.</figcaption>
+  <figcaption>(L to R) Camera SOOC, Lightroom Mobile, and RawTherapee.</figcaption>
 </figure>
 
 Have you noticed the similarities and differences I mentioned above? Feel free to comment if you've noticed other discrepancies.
@@ -65,11 +65,11 @@ Have you noticed the similarities and differences I mentioned above? Feel free t
 **Note:** I am using a modified neutral profile for my camera that's why the SOOC shot is quite flat.
 {: .notice}
 
-## Raw Therapee - Settings
+## RawTherapee - Settings
 
-Upon checking other default settings, I noticed that "Noise Reduction" is enabled in Raw Therapee by default. Maybe this is the answer for the lack of detail issue.
+Upon checking other default settings, I noticed that "Noise Reduction" is enabled in RawTherapee by default. Maybe this is the answer for the lack of detail issue.
 
-Also, I recently found out that Raw Therapee supports custom color profiles and these profiles are included in the [Adobe DNG Converter][dng-converter] software.
+Also, I recently found out that RawTherapee supports custom color profiles and these profiles are included in the [Adobe DNG Converter][dng-converter] software.
 
 I wonder if these settings are sufficient enough to replicate the default output Adobe Lightroom. Let's try applying the tweaks using the steps below.
 
@@ -89,7 +89,7 @@ I wonder if these settings are sufficient enough to replicate the default output
     %ALLUSERSPROFILE%/Adobe/CameraRaw/CameraProfiles/Adobe Standard/Canon EOS M50 Adobe Standard.dcp
     ```
 
-4. Run the Raw Therapee application
+4. Run the RawTherapee application
 
 5. Using the File Browser tab, Browse the raw image to edit
 
@@ -122,36 +122,36 @@ I wonder if these settings are sufficient enough to replicate the default output
 
 <figure>
   <img src="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-adobe-standard-no-nr.jpg"
-       alt="Image exported using Raw therapee with Adobe Standard Profile">
+       alt="Image exported using RawTherapee with Adobe Standard Profile">
 </figure>
 
-In my opinion, the new Raw Therapee output is way way better than its default. Grains and details are already visible. Greenish tint is gone and skin tone looks more natural. 
+In my opinion, the new RawTherapee output is way way better than its default. Grains and details are already visible. Greenish tint is gone and skin tone looks more natural. 
 
 For the browns, they look less orangy now. But when compared again to Lightroom, the shade is still far off. Brightness difference is very minor and can easily be adjusted.
 
 <figure class="third">
   <a href="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-default.jpg">
     <img src="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-default.jpg"
-         alt="Image exported using Raw therapee default">
+         alt="Image exported using RawTherapee default">
   </a>
   <a href="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-adobe-standard-no-nr.jpg">
     <img src="/assets/img/blog/photography/raw-therapee/coffee-watch-raw-therapee-adobe-standard-no-nr.jpg"
-         alt="Image exported using Raw therapee with Adobe Standard Profile">
+         alt="Image exported using RawTherapee with Adobe Standard Profile">
   </a>
   <a href="/assets/img/blog/photography/raw-therapee/coffee-watch-lightroom-default.jpg">
     <img src="/assets/img/blog/photography/raw-therapee/coffee-watch-lightroom-default.jpg"
          alt="Image exported using Adobe Lightroom Mobile">
   </a>
-  <figcaption>(L to R) Raw Therapee (Default), Raw Therapee (Adobe DCP), and Lightroom Mobile</figcaption>
+  <figcaption>(L to R) RawTherapee (Default), RawTherapee (Adobe DCP), and Lightroom Mobile</figcaption>
 </figure>
 
 ## Conclusion
 
 Replicating the exact output as Lightroom can not easily be done with few change of settings. Further adjustment of colors is needed to really align them.
 
-With those minor changes, the image really improved a lot especially the skin tone. If you are someone who is not particular with the color differences, or someone who has his/her own presets, using Raw Therapee is definitely a great option.
+With those minor changes, the image really improved a lot especially the skin tone. If you are someone who is not particular with the color differences, or someone who has his/her own presets, using RawTherapee is definitely a great option.
 
-Will I switch from using Lightroom Mobile (free version) to Raw Therapee? My answer is still a no as my use case hasn't changed since then. I don't process a lot of images and I really love the UX of the mobile app.
+Will I switch from using Lightroom Mobile (free version) to RawTherapee? My answer is still a no as my use case hasn't changed since then. I don't process a lot of images and I really love the UX of the mobile app.
 
 Hope you like my small experiment and do suggest some tips if you know other settings to be modified.
 
