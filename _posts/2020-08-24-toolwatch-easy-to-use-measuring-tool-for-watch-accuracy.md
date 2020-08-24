@@ -1,5 +1,5 @@
 ---
-title: "Toolwatch: A Easy-to-use Application for Measuring Accuracy of Your Timepieces"
+title: "Toolwatch: An Easy-to-use Application for Measuring Accuracy of Your Timepieces"
 excerpt: "Did it ever occur to you if your mechanical watch is accurate? Let's find out how the Toolwatch mobile application can help measure the accuracy of our precious timepieces."
 toc: true
 toc_label: "Table of Contents"
@@ -20,7 +20,7 @@ splash_teaser: /assets/img/blog/toolwatch/toolwatch-measure-600x450.jpg
 
 ## Introduction
 
-Hi fellow watch lover! Are you itching for another new watch? I feel you. Haha! I collected some [Seiko][seiko] and [Orient][orient] watches through the years. I believe that I already reached the point wherein collecting more will be counterproductive in cycling them with proper wrist time. For me, they are meant to be worn and not just store them in cabinets or drawers.
+Hi fellow watch lover! Are you itching for another new watch? I feel you. Haha! I collected some [Seiko][seiko] and [Orient][orient] watches through the years. I believe that I have already reached the point wherein collecting more will be counterproductive in cycling them with proper wrist time. For me, they are meant to be worn and not just stored in cabinets or drawers.
 
 As a watch lover, did it ever occur to you if the wristwatches you buy tell accurate times, especially mechanical ones?
 
