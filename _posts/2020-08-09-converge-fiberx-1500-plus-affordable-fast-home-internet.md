@@ -17,9 +17,12 @@ tags:
 splash_teaser: /assets/img/blog/internet/network-router-600x450.jpg
 ---
 
+**Updated {{ page.last_modified_at | date: "%Y-%m-%d" }}:** I've updated the tables and computations based from the latest offerings of Converge, Globe, and PLDT. Some of the old plans are already obsolete and not offered anymore.
+{: .notice--info}
+
 ## Introduction
 
-Last month, I received a notification from [Converge][converge] that their [add-on promo][converge-1500-plus] for _Fiber X Plan 1500_ is still available. I only need to add _**99 PHP per month**_ to upgrade my connection from _**25 Mbps to 35 Mbps**_!
+Last month, I received a notification from [Converge][converge] that their [add-on promo][converge-1500-plus] for _Fiber X Plan 1500_ is still available. I only need to add _**99 PHP per month**_ to upgrade my connection from _**35 Mbps to 45 Mbps**_!
 
 
 I highly recommend the add-on promo for existing Converge subscribers especially if you belong the following.
@@ -35,7 +38,7 @@ Amidst the pandemic, maybe you are planning to subscribe to a new fiber plan for
 
 ## Internet Fiber Plans
 
-Below are the lists of the plan offerings of Converge, PLDT, and Globe as of _09-August 2020_. 
+Below are the lists of the plan offerings of Converge, PLDT, and Globe as of _03-June 2021_. 
 
 The costs prepared only cover the base plan price. I did not include the contract duration and extras like installation fee, modem fee, and freebies in order to simplify the computation. 
 
@@ -45,25 +48,29 @@ Let's also assume that they all have the same reliability rate and level of cust
 
 | Plan                     | Landline | Price | Bandwidth | Cost per Mbps <br> (PHP/Mbps)  | Cost per Year |
 | ------------------------ | -------- | ----: | --------: | -----------------------------: | ------------: |
-| Fiber X 1500             | N/A      |  1500 |        25 |                          60.00 |    18,000 PHP |
-| Fiber X 1500 (w/ Add-on) | N/A      |  1599 |        35 |                          45.69 |    19,188 PHP |
-| Fiber X 2500             | N/A      |  2500 |        75 |                          33.33 |    30,000 PHP |
-| Fiber X 3500             | N/A      |  3500 |       150 |                          23.33 |    42,000 PHP |
+| Fiber X 1500             | N/A      |  1500 |        35 |                          42.86 |    18,000 PHP |
+| Fiber X 1500 Xtra        | N/A      |  1599 |        45 |                          35.53 |    19,188 PHP |
+| Fiber X 2500             | N/A      |  2500 |       100 |                          25.00 |    30,000 PHP |
+| Fiber X 3500             | N/A      |  3500 |       200 |                          17.50 |    42,000 PHP |
 
 ### [PLDT Fibr Plans][pldt-fiber-plans]
 
 | Plan                     | Landline | Price | Bandwidth | Cost per Mbps <br> (PHP/Mbps)  | Cost per Year |
 | ------------------------ | -------- | ----: | --------: | -----------------------------: | ------------: |
-| Unli Fibr 1299           | Yes      |  1299 |        10 |                         129.90 |    15,588 PHP |
-| Unli Fibr 1699           | Yes      |  1699 |        25 |                          67.96 |    20,388 PHP |
-| Unli Fibr 2399           | Yes      |  2399 |        50 |                          47.98 |    28,788 PHP |
-| Unli Fibr 2999           | Yes      |  2999 |       100 |                          29.99 |    35,988 PHP |
+| Unli Fibr 1699           | Yes      |  1699 |        35 |                          48.54 |    20,388 PHP |
+| Unli Fibr 2099           | Yes      |  2099 |        50 |                          41.98 |    25,188 PHP |
+| Unli Fibr 2699           | Yes      |  2699 |       100 |                          26.99 |    32,388 PHP |
+| Unli Fibr 3799           | Yes      |  3799 |       200 |                          19.00 |    45,588 PHP |
+| Unli Fibr 5799           | Yes      |  5799 |       600 |                           9.67 |    69,588 PHP |
+| Unli Fibr 9499           | Yes      |  9499 |      1000 |                           9.50 |   113,988 PHP |
 
 ### [Globe Unli Plans][globe-fiber-plans]
 
 | Plan                     | Landline | Price | Bandwidth | Cost per Mbps <br> (PHP/Mbps)  | Cost per Year |
 | ------------------------ | -------- | ----: | --------: | -----------------------------: | ------------: |
-| Unli Plan 1899           | Yes      |  1899 |        30 |                          63.30 |    22,788 PHP |
+| Unli Plan 1499           | N/A      |  1499 |        20 |                          74.95 |    17,988 PHP |
+| Unli Plan 1699           | Yes      |  1699 |        25 |                          67.96 |    20,388 PHP |
+| Unli Plan 1899           | Yes      |  1899 |        35 |                          54.26 |    22,788 PHP |
 | Unli Plan 2499           | Yes      |  2499 |        50 |                          49.98 |    29,988 PHP |
 | Unli Plan 2899           | Yes      |  2899 |       100 |                          28.99 |    34,788 PHP |
 | Unli Plan 3499           | Yes      |  3499 |       200 |                          17.50 |    41,988 PHP |
@@ -84,31 +91,30 @@ You will be shelling out a LOT more of your hard-earned money and a regular hous
 
 ### Affordable Plans
 
-Amongst the affordable / lower-tier plans, Converge Fiber X 1500 with add-on is the most affordable one with the highest bandwidth.
+Amongst the affordable / lower-tier plans, Converge Fiber X 1500 Xtra is the most affordable one with the highest bandwidth.
 
-But, Converge does not offer a landline. All PLDT and Globe plans include a landline which normally costs around 700 PHP per month.
+But, Converge does not offer a landline. Almost all PLDT and Globe plans include a landline which normally costs around 700 PHP per month.
 
 You might be shocked once you see the huge drop of the price per Mbps after we factored out the cost of landline.
 
 | Provider     | Plan                     | Price                   | Price <br> (landline cost removed) | Bandwidth | Cost per Mbps <br> (w/o landline) |
 | ------------ | ------------------------ | ----------------------: | ---------------------------------: | --------: | --------------------------------: |
-| Converge     | Fiber X 1500             |                   1500  |                               same |        25 |                             60.00 |
-| Converge     | Fiber X 1500 (w/ Add-on) |                   1599  |                               same |        35 |                             45.69 |
-| PLDT         | Unli Fibr 1299           |                   1299  |                                599 |        10 |                             59.90 |
-| PLDT         | Unli Fibr 1699           |                   1699  |                                999 |        25 |                             39.96 |
-| PLDT         | Unli Fibr 2399           |                   2399  |                               1699 |        50 |                             33.98 |
-| Globe        | Unli Plan 1899           |                   1899  |                               1199 |        30 |                             39.96 |
-| Globe        | Unli Plan 2499           |                   2499  |                               1799 |        50 |                             35.98 |
+| Converge     | Fiber X 1500             |                   1500  |                               same |        35 |                             42.86 |
+| Converge     | Fiber X 1500 Xtra        |                   1599  |                               same |        45 |                             35.53 |
+| PLDT         | Unli Fibr 1699           |                   1699  |                                999 |        35 |                             28.54 |
+| PLDT         | Unli Fibr 2099           |                   2099  |                               1399 |        50 |                             27.98 |
+| Globe        | Unli Plan 1499           |                   1499  |                               same |        20 |                             74.95 |
+| Globe        | Unli Plan 1699           |                   1699  |                                999 |        25 |                             39.96 |
+| Globe        | Unli Plan 1899           |                   1899  |                               1199 |        35 |                             34.26 |
 
-
-Turns out that PLDT Unli Fibr 1699 and Globe Unli Plan 1899 have cheaper bandwidth price than Converge Fiber X 1500 (w/ Add-on). _*shocked*_
+Turns out that PLDT Unli Fibr 1699 and Globe Unli Plan 1899 have cheaper bandwidth price than Converge Fiber X 1500 Xtra. _*shocked*_
 
 Should you just go for PLDT or Globe, then? **It depends.** If you need or want a landine, definitely go with PLDT or Globe. Otherwise, go for Converge.
 
 
 ## Conclusion
 
-Every household / person has different needs and use cases. For our case, subscribing to Converge Fiber X 1500 (w/ add-on) is the right plan because we don't need a landline. Even if the cost per Mbps is slightly higher, the total cost per year is still lower.
+Every household / person has different needs and use cases. For our case, subscribing to Converge Fiber X 1500 Xtra is the right plan because we don't need a landline. Even if the cost per Mbps is slightly higher, the total cost per year is still lower.
 
 Remember to check your budget first before determining your wants. Also, don't forget to include mobile data plans of every household member when budgeting.
 
@@ -117,7 +123,7 @@ Hope my post helps you decide! Stay safe!
 [netflix]: https://www.netflix.com/
 [netflix-recommendation]: https://help.netflix.com/en/node/306
 [converge]: https://www.convergeict.com/
-[converge-1500-plus]: https://www.convergeict.com/add-on/1500-plus/
+[converge-1500-plus]: https://www.convergeict.com/1500-xtra/
 [converge-fiber-plans]: https://www.convergeict.com/fiberx/
 [pldt-fiber-plans]: https://pldthome.com/fibr
 [globe-fiber-plans]: https://shop.globe.com.ph/broadband/unli-fiber-internet-plans
