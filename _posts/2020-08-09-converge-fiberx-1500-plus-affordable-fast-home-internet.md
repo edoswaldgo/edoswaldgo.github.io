@@ -15,9 +15,14 @@ tags:
 - user experience
 - network
 splash_teaser: /assets/img/blog/internet/network-router-600x450.jpg
+last_modified_at: 2022-06-23 00:00:00 +0000
+modified_at_01: 2021-06-03 00:00:00 +0000
 ---
 
-**Updated {{ page.last_modified_at | date: "%Y-%m-%d" }}:** I've updated the tables and computations based from the latest offerings of Converge, Globe, and PLDT. Some of the old plans are already obsolete and not offered anymore.
+**Updated {{ page.last_modified_at | date: "%Y-%m-%d" }}:** The fiber plans in this post are all outdated. Kindly check the website of the ISPs for the updated rates and bandwidth.
+{: .notice--info}
+
+**Updated {{ page.modified_at_01 | date: "%Y-%m-%d" }}:** I've updated the tables and computations based from the latest offerings of Converge, Globe, and PLDT. Some of the old plans are already obsolete and not offered anymore.
 {: .notice--info}
 
 ## Introduction
