@@ -17,7 +17,11 @@ tags:
 - fiber
 - dsl
 - network
+last_modified_at: 2022-06-23 00:00:00 +0000
 ---
+
+**Updated {{ page.last_modified_at | date: "%Y-%m-%d" }}:** The Internet plans in this post are all outdated. Kindly check the website of the ISPs for the updated rates and bandwidth.
+{: .notice--info}
 
 ## Introduction
 
